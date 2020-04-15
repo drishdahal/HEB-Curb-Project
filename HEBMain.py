@@ -34,5 +34,12 @@ zipcodeBox.send_keys('78256')
 zipcodeBox.send_keys(Keys.ENTER)
 
 
-# df = pd.DataFrame({'Store Name':storename,'timeslot':timeslot})
+#All available HEB Addresses
+# content = driver.page_source
+# soup = bs4
+# for a in bs4.findAll('a',href=True, attrs={'class':"store"}):
+#     storename = a.find('div', attrs={'class': "store-card__name.store-card__name--modal"})
+#     storename.append(storename.text)
+#
+# df = pd.DataFrame({'Store Name':storename})
 # df.to_csv('products.csv', index=False, encoding='utf-8')
